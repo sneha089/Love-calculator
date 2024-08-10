@@ -1,0 +1,21 @@
+name1=input("Enter name:")
+name2=input("enter name:")
+combine=name1+name2
+res=combine.lower()
+t=res.count('t')
+r=res.count('r')
+u=res.count('u')
+e=res.count('e')
+true=t+r+u+e
+l=res.count('l')
+o=res.count('o')
+v=res.count('v')
+e=res.count('e')
+love=l+o+v+e
+final=int(str(true)+str(love))
+if final<10 or final>90:
+    print(f"your love score is {final} and you both are like cock and mente")
+elif final<50:
+    print(f"your love score is {final} and you both are made for each other")
+else:
+    print("your love score is {final} and you are not made for each other")
